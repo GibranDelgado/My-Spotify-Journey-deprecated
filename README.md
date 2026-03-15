@@ -6,7 +6,7 @@ The streaming history file given by Spotify was used as the data source. However
 
 ## Pipeline architecture
 The following diagram illustrates the complete data extraction workflow of the project, from the raw Spotify data to the final dashboard dataset.
-![Pipeline Diagram](pipeline_diagram.png)
+![Pipeline Diagram](Pipeline_diagram.jpg)
 
 ## Project structure
 
