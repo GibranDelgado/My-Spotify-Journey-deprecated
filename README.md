@@ -21,16 +21,19 @@ Three files are required:
 - `Playlist1.json`
 - `StreamingHistory_music_0.json`
 
-The first one contains the credentials of the project, while the last two come from the data Spotify provides when you request your streaming history (see **Get your own Spotify data**).
+The first one contains the credentials of the project. See **Create a Spotify developer app** to know how to get both values `client_id` and `client_secret`.
+Update your time zone using the link placed in **references**.
+
+The last two files come from the data Spotify provides when you request your streaming history (see **Get your own Spotify data**).
 
 ### 📁 Scripts folder
 This folder acts as a Python module and contains the following scripts:
 
 #### 🔐 SpotifyAPI_access
-Includes the function `get_token` which generates an access token using the `client_secret` and the `client_id` stored in the `config.json` file
+Includes the function `get_token` which generates an access token using both `client_id` and `client_secret` stored in the `config.json` file.
 
 #### 🧹 Spotify_streaming_history
-Cleans the streaming history and updates the playback datetime according to the timezone defined in the `config.json` file
+Cleans the streaming history and updates the playback datetime according to the timezone defined in the `config.json` file.
 
 #### 🧰 Spotify_utilities
 Includes a set of clases used to obtain information about a track, album or an artist.
@@ -76,12 +79,12 @@ Classes included:
 
   - **MultipleTracksFinder**
 
-    Searches every track individually using the clases defined in `Spotify_utilites` and then matches them against the API call results
+    Searches every track individually using the clases defined in `Spotify_utilites` and then matches them against the API call results.
 
 #### 🔄 Spotify_processing
 This is where the main data processing workflow of the project is defined.
   - `Spotify_pipeline` orchestrates the process of matching tracks from a Spotify streaming history with Spotify API data
-  - `OutputGenerator` enriches the dataset with useful information about tracks, albums, artists and then export the results as excel files.
+  - `OutputGenerator` enriches the dataset with useful information about tracks, albums, artists and then export the results as excel files
 
 ### 📥 Get your own Spotify data
 1. In **references** you will find a link to request your streaming history data. You will be able to download your data within five days.
@@ -120,7 +123,7 @@ This folder will contains the additional information about tracks, albums and ar
 
 ⚠️ **Note**
 
-The script may take a considerable amount of time to run. Please avoid interrupting the execution.
+**Main script may take a considerable amount of time to run. Please avoid interrupting the execution.**
 
 ## 📦 Install
 `pip install -r requirements.txt`
@@ -133,3 +136,7 @@ The script may take a considerable amount of time to run. Please avoid interrupt
   - **Spotify for developers**
 
     https://developer.spotify.com/
+
+    - **Time zones**
+   
+      https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
