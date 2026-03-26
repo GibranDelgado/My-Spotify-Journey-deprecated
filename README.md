@@ -137,6 +137,6 @@ This folder will contains the additional information about tracks, albums and ar
 
     https://developer.spotify.com/
 
-    - **Time zones**
+  - **Time zones**
    
       https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
