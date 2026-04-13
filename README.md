@@ -6,8 +6,8 @@ The streaming history file given by Spotify was used as the data source. However
 
 ##  📊 Dashboard
 See the links below to visualize my dashboard
-  - 🔗 [NovyPro](https://project.novypro.com/KmFKle)
-  - 🔗 [Tableau public](https://public.tableau.com/views/Myspotifyjourney/MySpotifyJourney12?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+  - 🔗 Visualize on [NovyPro](https://project.novypro.com/KmFKle)
+  - 🔗 Visualize on [Tableau public](https://public.tableau.com/views/Myspotifyjourney/MySpotifyJourney12?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![image alt](https://github.com/GibranDelgado/My-Spotify-Journey-deprecated/blob/main/My%20Spotify%20Journey.png?raw=true)
 
