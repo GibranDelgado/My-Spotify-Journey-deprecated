@@ -1,11 +1,15 @@
 # 🎧 My Spotify Journey
 Thank you for your interest in my project. This time I decided to emulate the famous annual Spotify Wrapped, adding additional layers of information to make an in-depth analysis of my streaming history and create a customized dashboard of my musical preferences, with the advantage of using data from anytime of the year.
 
-## 📊 Overview
+## 🌐 Overview
 The streaming history file given by Spotify was used as the data source. However, since this file contains the trackname, artistname, and the endtime of each play, I decided to create and **end-to-end** Python data extraction pipeline using the **Spotify Web API**, in order to get some useful information to complement the streaming history dataset.
 
-![image alt](https://github.com/GibranDelgado/My-Spotify-Journey-deprecated/blob/main/My%20Spotify%20Journey.png?raw=true)
+##  📊 Dashboard
+See the links below to visualize my dashboard
+  - NovyPro: https://project.novypro.com/KmFKle
+  - Tableau public: https://public.tableau.com/views/Myspotifyjourney/MySpotifyJourney12?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
+![image alt](https://github.com/GibranDelgado/My-Spotify-Journey-deprecated/blob/main/My%20Spotify%20Journey.png?raw=true)
 
 ## ⚙️ Pipeline architecture
 The following diagram illustrates the complete data extraction workflow of the project, from the raw Spotify data to the final dashboard dataset.
