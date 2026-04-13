@@ -6,8 +6,8 @@ The streaming history file given by Spotify was used as the data source. However
 
 ##  📊 Dashboard
 See the links below to visualize my dashboard
-  - NovyPro: https://project.novypro.com/KmFKle
-  - Tableau public: https://public.tableau.com/views/Myspotifyjourney/MySpotifyJourney12?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+  - 🔗 [NovyPro](https://project.novypro.com/KmFKle)
+  - 🔗 [Tableau public](https://public.tableau.com/views/Myspotifyjourney/MySpotifyJourney12?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![image alt](https://github.com/GibranDelgado/My-Spotify-Journey-deprecated/blob/main/My%20Spotify%20Journey.png?raw=true)
 
@@ -60,10 +60,10 @@ if you want to make the search using the artist name or the track name, respecti
 
 #### ⚡Spotify_methods
 This script defines the methods responsible for processing and handling results obtained from the Spotify API, such as:
-- searching tracks
-- converting API results to dataframe
-- matching the tracks to search with the API results
-- handling search results
+- Searching tracks
+- Converting API results to dataframe
+- Matching the tracks to search with the API results
+- Handling search results
 
 #### 🧠 Spotify_missing_data_extraction
 This section defines the different strategies used to extract complementary data from the streaming history.
@@ -136,14 +136,8 @@ This folder will contains the additional information about tracks, albums and ar
 `pip install -r requirements.txt`
 
 ## 🔗 References
-  - **Request your data**
+  - [Request your data](https://www.spotify.com/us/account/privacy/)
     
-    https://www.spotify.com/us/account/privacy/
-    
-  - **Spotify for developers**
+  - [Spotify for developers](https://developer.spotify.com/)
 
-    https://developer.spotify.com/
-
-  - **Time zones**
-   
-      https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  - [Time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
